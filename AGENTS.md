@@ -8,9 +8,9 @@ Use images as a reference.
 
 Ask clarifying questions when needed.
 
-The PDF is the CAD drawing for the bed which will this cabinet will go next to. Use its asthetics (the vent slots) when designing. Use its dimensions to make sure the cabinet will fit nicely next to the bed. Measurements are also included in the photos.
+The PDF is the CAD drawing for the bed which will this cabinet will go next to on the passengerside of thevan. Use its asthetics (the vent slots) when designing. Use its dimensions to make sure the cabinet will fit nicely next to the bed. Measurements are also included in the photos.
 
-Design it such it can be CNC'd on a bed no wider than 48".
+Design it such that it can be CNC'd on a bed no wider than 48".
 
 Save all generated code and scripts to this directly for future and possible re-use.
 
