@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#eeeae2">
+<title>Van Cabinet | Design Review</title><link rel="icon" href="data:,"><link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header class="header"><a class="brand" href="./" aria-label="Van Cabinet home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>Van Cabinet<span class="brand-sub">Sprinter 170 / Design review</span></span></a><span class="badge">CONCEPT 01</span></header>
+<main class="workspace">
+<aside class="sidebar" aria-label="Cabinet controls"><details open class="controls-details"><summary>Explore the cabinet</summary><div class="sidebar-content">
+<p class="eyebrow">2023 MERCEDES-BENZ SPRINTER</p><h1>Cabinet review</h1><p class="intro">Orbit the model, slide out the toilet, and extend the dog platform.</p>
+<div class="specs" aria-label="Overall cabinet dimensions"><div><strong id="width-value">30″</strong><span>width</span></div><div><strong id="depth-value">18″</strong><span>depth*</span></div><div><strong id="height-value">33″</strong><span>height</span></div></div>
+<fieldset id="controls" disabled><legend class="sr-only">Model controls</legend>
+<section class="control-section"><h2>Configuration</h2><div class="segmented"><button id="stowed" type="button">Stowed</button><button id="deployed" type="button">Extended</button></div>
+<label class="range-label" for="toilet"><span>Toilet extension</span><output id="toilet-value" for="toilet">0″</output></label><input id="toilet" type="range" min="0" max="18" step=".25" value="0">
+<label class="range-label" for="dog"><span>Dog platform</span><output id="dog-value" for="dog">0″</output></label><input id="dog" type="range" min="0" max="12" step=".25" value="0">
+<label class="range-label" for="door"><span>Toilet door</span><output id="door-value" for="door">0°</output></label><input id="door" type="range" min="0" max="95" step="1" value="0"></section>
+<section class="control-section"><h2>Look inside</h2><label class="toggle"><span>Front panels</span><input id="fronts" type="checkbox" checked></label><label class="toggle"><span>Countertop</span><input id="top" type="checkbox" checked></label><label class="toggle"><span>Component envelopes</span><input id="envelopes" type="checkbox" checked></label><label class="toggle"><span>Dimensions</span><input id="dimensions" type="checkbox"></label><label class="range-label" for="explode"><span>Separate parts</span><output id="explode-value" for="explode">0″</output></label><input id="explode" type="range" min="0" max="5" step=".1" value="0"></section>
+<section class="control-section"><h2>Inspect a part</h2><label class="sr-only" for="part-select">Select a cabinet part</label><select id="part-select"><option value="">Select a part in the model</option></select><div class="part-card" aria-live="polite"><strong id="part-name">Select a part</strong><p id="part-size">Click the cabinet to see part dimensions.</p></div></section>
+<button id="reset" class="reset-button" type="button">Reset view and controls</button>
+</fieldset>
+<div class="download-links"><a href="./files/cabinet_stowed.step" download>Download STEP</a><a href="./files/parameters.json" download>Parameters</a><a href="./files/COMPONENTS.md">Component notes</a></div>
+<div class="review-note"><strong>For design review</strong><p>*18″ depth remains provisional. Components are reserved envelopes. The sink cutout and hardware are unfinished.</p><p>Geometry does not establish load capacity or fabrication readiness.</p></div>
+</div></details></aside>
+<section id="viewport" class="viewport" aria-label="Interactive three-dimensional cabinet model">
+<div class="viewport-heading"><div><p class="eyebrow">INTERACTIVE CAD MODEL</p><p class="view-title">Cabinet concept 01</p></div><span class="live-tag"><span></span>Interactive model</span></div>
+<nav class="view-buttons" aria-label="Camera views"><button type="button" data-view="iso" aria-pressed="true">Perspective</button><button type="button" data-view="front" aria-pressed="false">Front</button><button type="button" data-view="top" aria-pressed="false">Top</button></nav>
+<div id="canvas-host"></div><div id="loading" class="loading" role="status"><span class="loading-ring" aria-hidden="true"></span><strong>Preparing your cabinet</strong><span>Loading the CAD geometry.</span></div>
+<div class="viewport-footer"><p>Drag to orbit <span>·</span> Scroll to zoom <span>·</span> Right-drag to pan</p><div class="legend" aria-label="Material legend"><span><i class="wood"></i>Plywood</span><span><i class="component"></i>Reserved space</span></div></div>
+</section></main><script type="module" src="./app.js"></script></body></html>

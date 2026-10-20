@@ -1,0 +1,21 @@
+{
+  "width": 30.0,
+  "depth": 18.0,
+  "height": 33.0,
+  "plywood": 0.5,
+  "top_thickness": 0.75,
+  "rear_gap": 0.875,
+  "left_clear": 12.5,
+  "dog_depth": 12.0,
+  "dog_deck_z": 18.0,
+  "dog_slide_space": 0.75,
+  "toilet_travel": 18.0,
+  "dog_travel": 12.0,
+  "dog_weight_lb": 45,
+  "person_weight_lb": 200,
+  "toe_kick_height": 3.0,
+  "toe_kick_recess": 2.0,
+  "water_entry_height": 24.0,
+  "water_entry_from_wall": 3.0,
+  "water_entry_diameter": 1.5
+}

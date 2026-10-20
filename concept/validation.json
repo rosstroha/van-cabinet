@@ -1,0 +1,256 @@
+{
+  "status": "preliminary_geometry_only",
+  "outer_inches": [
+    30.0,
+    18.0,
+    33.0
+  ],
+  "max_width_inches": 30.125,
+  "width_margin_inches": 0.125,
+  "dog_deck_inches": [
+    14.5,
+    12.0,
+    0.75
+  ],
+  "right_clear_inches": 16.0,
+  "rear_gap_inches": 0.875,
+  "c_pillar_depth_inches": 0.625,
+  "solid_checks": [
+    {
+      "name": "left_side",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "right_side",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "back",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "divider",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "tank_base",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "toe_kick_left_panel",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "toilet_kick_panel",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "countertop",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "mount_rail_left_low",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "mount_rail_left_high",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "mount_rail_right_low",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "mount_rail_right_high",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "tank_access_door",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "sink_service_front",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "toilet_hinged_door",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "dog_deck",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "dog_front",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "dog_slide_left_clearance",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "dog_slide_right_clearance",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "drawer_1_front",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "drawer_1_bottom",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "drawer_1_left",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "drawer_1_right",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "drawer_1_back",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "drawer_2_front",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "drawer_2_bottom",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "drawer_2_left",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "drawer_2_right",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "drawer_2_back",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "upper_fixed_front",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "toilet_sled",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "floor_roller_15.0_3.5",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "floor_roller_15.0_13.5",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "floor_roller_28.0_3.5",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "floor_roller_28.0_13.5",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "tank_carrier",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "toilet_335_reserved_envelope",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "COMET_19L_reserved_envelope",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "VA930_sink_reserved_envelope",
+      "valid": true,
+      "solids": 1
+    }
+  ],
+  "toe_kick_inches": {
+    "height": 3.0,
+    "recess": 2.0
+  },
+  "cabinet_has_feet": false,
+  "carcass_floor_z_inches": 0,
+  "water_entry": {
+    "side": "right",
+    "height": 24.0,
+    "from_wall": 3.0,
+    "diameter": 1.5,
+    "cuts": [
+      {
+        "part": "right_side",
+        "removed_volume_in3": 0.883573
+      },
+      {
+        "part": "divider",
+        "removed_volume_in3": 0.883573
+      }
+    ]
+  },
+  "parts_fit_48_in_stock": true,
+  "parts_fit_48_by_48_in_stock": true,
+  "stowed_part_intersections": [],
+  "deployed_part_intersections": [],
+  "component_intersections": [
+    {
+      "a": "VA930_sink_reserved_envelope",
+      "b": "countertop",
+      "volume_in3": 123.690247,
+      "intentional": true
+    }
+  ],
+  "caveats": [
+    "No structural rating or full motion/hinge/plumbing verification",
+    "Sink overlaps uncut countertop intentionally; final template required",
+    "Floor rollers, slide envelopes and mounting rails are provisional",
+    "Clearance envelopes omit fittings and moving lids",
+    "Depth 18 inches is provisional; confirm against actual finished van"
+  ]
+}
